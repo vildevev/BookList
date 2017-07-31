@@ -10,3 +10,7 @@ export default class App extends Component {
 		);
 	}
 }
+
+// Redux serves to construct the application state
+// React provides the views to display that state
+// they are inherently disconnected. Use 'react-redux' library to connect them
