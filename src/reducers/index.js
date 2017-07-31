@@ -4,7 +4,7 @@ import BooksReducer from './reducer_books';
 // telling redux how to create our application state
 const rootReducer = combineReducers({
 	// the mapping of our state
-	books: booksReducer
+	books: BooksReducer
 });
 
 export default rootReducer;
